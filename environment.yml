@@ -1,0 +1,8 @@
+name: try-gmt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - gmt=6.0.0
+  - pygmt=0.1.1
+  - jupyterlab
