@@ -6,7 +6,7 @@ This is an online Jupyter lab with latest
 and [GMT.jl](https://github.com/GenericMappingTools/GMT.jl)
 installed.
 
-You can run it online at [![Pangeo Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/GenericMappingTools/try-gmt/master?filepath=landing-page.ipynb)
+You can run it online at [![Pangeo Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/GenericMappingTools/try-gmt/master?urlpath=lab/tree/landing-page.ipynb)
 
 ## Installed packages
 
