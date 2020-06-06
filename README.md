@@ -6,7 +6,14 @@ This is an online Jupyter lab with latest
 and [GMT.jl](https://github.com/GenericMappingTools/GMT.jl)
 installed.
 
-You can run it online at [![Pangeo Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/GenericMappingTools/try-gmt/master?urlpath=lab/tree/landing-page.ipynb)
+You can run it online by click one of the badges below:
+
+- [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/GenericMappingTools/try-gmt/master?urlpath=lab/tree/landing-page.ipynb) hosted at https://binder.pangeo.io
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GenericMappingTools/try-gmt/master?urlpath=lab/tree/landing-page.ipynb) hosted at https://mybinder.org/
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://gke.mybinder.org/v2/gh/GenericMappingTools/try-gmt/master?urlpath=lab/tree/landing-page.ipynb) hosted at https://gke.mybinder.org/
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://ovh.mybinder.org//v2/gh/GenericMappingTools/try-gmt/master?urlpath=lab/tree/landing-page.ipynb) hosted at https://ovh.mybinder.org/
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/v2/gh/GenericMappingTools/try-gmt/master?urlpath=lab/tree/landing-page.ipynb) hosted at https://gesis.mybinder.org/
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://turing.mybinder.org/v2/gh/GenericMappingTools/try-gmt/master?urlpath=lab/tree/landing-page.ipynb) hosted at https://turing.mybinder.org/
 
 ## Installed packages
 
