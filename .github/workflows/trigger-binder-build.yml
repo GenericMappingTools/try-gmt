@@ -7,7 +7,6 @@ on:
     branches:
       # Only trigger on master branch
       - master
-      - trigger-build
 
 jobs:
   trigger-binder-build:
