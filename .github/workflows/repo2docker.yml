@@ -1,5 +1,5 @@
 # This workflow runs repo2docker to check if this repository is a valid binder repo
-name: Run repo2docker
+name: Validator
 
 on:
   push:
@@ -13,13 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout current git repository
       - name: Checkout
         uses: actions/checkout@v2
 
-      # Setup Miniconda
       - name: Setup Miniconda
-        uses: goanpeca/setup-miniconda@v1.3.1
+        uses: goanpeca/setup-miniconda@v1
         with:
           channels: conda-forge
 
@@ -33,4 +31,4 @@ jobs:
 
       - name: Run repo2docker
         shell: bash -l {0}
-        run: jupyter-repo2docker https://github.com/${{ github.repository }}
+        run: jupyter-repo2docker --no-run --ref ${{ github.sha }} https://github.com/${{ github.repository }}
