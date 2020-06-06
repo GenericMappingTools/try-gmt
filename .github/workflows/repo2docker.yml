@@ -24,10 +24,13 @@ jobs:
           channels: conda-forge
 
       - name: Install dependencies
+        shell: bash -l {0}
         run: conda install jupyter-repo2docker
 
       - name: Show installed package
+        shell: bash -l {0}
         run: conda list
 
       - name: Run repo2docker
-        run: repo2docker https://github.com/${{ github.repository }}
+        shell: bash -l {0}
+        run: jupyter-repo2docker https://github.com/${{ github.repository }}
