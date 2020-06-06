@@ -1,0 +1,37 @@
+# Trigger a build on binder, so the build is always up to date
+# with the targeted state and users don't have to wait.
+
+name: 'Trigger Binder build'
+on:
+  push:
+    branches:
+      # Only trigger on master branch
+      - master
+      - trigger-build
+
+jobs:
+  trigger-binder-build:
+    runs-on: [ubuntu-latest]
+    steps:
+
+      - name: Trigger build on mybinder.org
+        uses: s-weigand/trigger-mybinder-build@v1
+        with:
+          target-repo: GenericMappingTools/try-gmt
+
+      # Have to trigger build on pangeo manually, because the action above doesn't support it yet
+      - name: Trigger build on binder.pangeo.io
+        # make the command return 0
+        run: |
+            curl -s -L --connect-timeout 10 --max-time 30 https://binder.pangeo.io/build/gh/GenericMappingTools/try-gmt/master
+            curl_return=$?
+            # Return code 28 is when the --max-time is reached
+            if [ "${curl_return}" -eq 0 ] || [ "${curl_return}" -eq 28 ]; then
+                if [[ "${curl_return}" -eq 28 ]]; then
+                    printf "\nBinder build started.\nCheck back soon.\n"
+                fi
+            else
+                exit "${curl_return}"
+            fi
+
+            exit 0
