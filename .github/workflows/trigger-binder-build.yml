@@ -17,11 +17,5 @@ jobs:
         uses: s-weigand/trigger-mybinder-build@v1
         with:
           target-repo: GenericMappingTools/try-gmt
-
-      # Have to trigger build on pangeo manually, because the action above doesn't support it yet
-      - name: Trigger build on binder.pangeo.io
-        # make the command return 0
-        run: |
-            set +e
-            curl -s -L --connect-timeout 10 --max-time 30 https://binder.pangeo.io/build/gh/GenericMappingTools/try-gmt/master
-            exit 0
+          additional-build-servers: |
+            https://binder.pangeo.io
