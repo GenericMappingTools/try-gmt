@@ -1,0 +1,2 @@
+gmt which -Gu @earth_relief_01d @earth_relief_30m @earth_relief_20m \
+              @earth_relief_15m @earth_relief_10m @earth_relief_06m
