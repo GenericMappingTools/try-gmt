@@ -1,0 +1,7 @@
+# Notes:
+# 1. Need to change -Gu to -Ga after bumping to GMT 6.1.0
+# 2. Have to run the command multiple times to avoid any potential network connection issues
+
+gmt which -Gu @earth_relief_01d @earth_relief_30m @earth_relief_20m @earth_relief_15m @earth_relief_10m @earth_relief_06m
+gmt which -Gu @earth_relief_01d @earth_relief_30m @earth_relief_20m @earth_relief_15m @earth_relief_10m @earth_relief_06m
+gmt which -Gu @earth_relief_01d @earth_relief_30m @earth_relief_20m @earth_relief_15m @earth_relief_10m @earth_relief_06m
