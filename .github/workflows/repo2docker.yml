@@ -8,7 +8,7 @@ on:
 jobs:
   repo2docker:
     name: Run repo2docker
-    runs-on: macos-latest  # the linux agent may have internet connection issues
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
