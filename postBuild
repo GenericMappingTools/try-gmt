@@ -1,7 +1,8 @@
 # Notes:
-# 1. Need to change -Gu to -Ga after bumping to GMT 6.1.0
-# 2. Have to run the command multiple times to avoid any potential network connection issues
+# 1. Have to run the command multiple times to avoid any potential network connection issues
 
-gmt which -Gu @earth_relief_01d @earth_relief_30m @earth_relief_20m @earth_relief_15m @earth_relief_10m @earth_relief_06m
-gmt which -Gu @earth_relief_01d @earth_relief_30m @earth_relief_20m @earth_relief_15m @earth_relief_10m @earth_relief_06m
-gmt which -Gu @earth_relief_01d @earth_relief_30m @earth_relief_20m @earth_relief_15m @earth_relief_10m @earth_relief_06m
+for i in $(seq 1 3); do
+	for res in 01d 30m 20m 15m 10m 06m; do
+		gmt which -Ga @earth_relief_${res}
+	done
+done
