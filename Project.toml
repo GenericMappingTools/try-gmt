@@ -4,4 +4,4 @@ IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
 
 [compat]
 julia = "1.3"
-GMT = "0.21.0"
+GMT = "0.22.0"
