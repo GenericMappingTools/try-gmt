@@ -21,7 +21,7 @@ You can run it online by click one of the badges below:
 - **Python**: 3.8
 - **PyGMT**: 0.1.2
 - **Julia**: 1.3
-- **GMT.jl**: 0.22.0
+- **GMT.jl**: 0.23.0
 
 ## License
 
