@@ -17,7 +17,7 @@ You can run it online by click one of the badges below:
 
 ## Installed packages
 
-- **GMT**: 6.1.0
+- **GMT**: 6.1.1
 - **Python**: 3.8
 - **PyGMT**: 0.1.2
 - **Julia**: 1.5

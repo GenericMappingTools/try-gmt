@@ -3,6 +3,6 @@ channels:
   - conda-forge
 dependencies:
   - python=3.8
-  - gmt=6.1.0
+  - gmt=6.1.1
   - pygmt=0.1.2
   - jupyterlab
