@@ -4,5 +4,5 @@ channels:
 dependencies:
   - python=3.8
   - gmt=6.1.1
-  - pygmt=0.1.2
+  - pygmt=0.2.0
   - jupyterlab
