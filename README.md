@@ -23,6 +23,10 @@ You can run it online by click one of the badges below:
 - **Julia**: 1.5
 - **GMT.jl**: 0.24.0
 
+## Reference
+
+- [Binder Documentation](https://mybinder.readthedocs.io/en/latest/index.html)
+
 ## License
 
 You can redistribute and/or modify this code under the terms of the **BSD 3-clause License**.
