@@ -14,6 +14,7 @@ You can run it online by click one of the badges below:
 - [![Binder](https://mybinder.org/badge_logo.svg)](https://ovh.mybinder.org/v2/gh/GenericMappingTools/try-gmt/master?urlpath=lab/tree/landing-page.ipynb) hosted at https://ovh.mybinder.org/
 - [![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/v2/gh/GenericMappingTools/try-gmt/master?urlpath=lab/tree/landing-page.ipynb) hosted at https://gesis.mybinder.org/
 - [![Binder](https://mybinder.org/badge_logo.svg)](https://turing.mybinder.org/v2/gh/GenericMappingTools/try-gmt/master?urlpath=lab/tree/landing-page.ipynb) hosted at https://turing.mybinder.org/
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GenericMappingTools/try-gmt/blob/master/landing-page.ipynb) hosted by [Google Colab](https://colab.research.google.com/) (Need to log in to your Google account).
 
 ## Installed packages
 
