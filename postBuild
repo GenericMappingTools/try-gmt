@@ -1,8 +1,14 @@
-# Notes:
-# 1. Have to run the command multiple times to avoid any potential network connection issues
+#
+# Run extra commands after installing the environment
+#
 
+# Cache GMT's remote earth relief data
+# Have to run the command multiple times to avoid any potential network connection issues
 for i in $(seq 1 3); do
 	for res in 01d 30m 20m 15m 10m 06m; do
 		gmt which -Ga @earth_relief_${res}
 	done
 done
+
+# Precompile GMT.jl package
+julia -e "using GMT"
