@@ -10,5 +10,5 @@ for i in $(seq 1 3); do
 	done
 done
 
-# Precompile GMT.jl package
+# Precompile GMT.jl package to speedup library loading
 julia -e "using GMT"
