@@ -3,5 +3,5 @@ GMT = "5752ebe1-31b9-557e-87aa-f909b540aa54"
 IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
 
 [compat]
-julia = "1.5"
+julia = "=1.5.2"
 GMT = "0.25.0"
