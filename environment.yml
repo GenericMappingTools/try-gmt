@@ -2,7 +2,7 @@ name: try-gmt
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
+  - python=3.8
   - gmt=6.1.1
   - pygmt=0.2.1
   - jupyterlab
