@@ -20,7 +20,7 @@ You can run it online by click one of the badges below:
 
 - **GMT**: 6.1.1
 - **Python**: 3.9
-- **PyGMT**: 0.2.1
+- **PyGMT**: 0.3.0
 - **Julia**: 1.5
 - **GMT.jl**: 0.29.0
 
