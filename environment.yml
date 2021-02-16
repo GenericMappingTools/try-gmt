@@ -1,8 +1,10 @@
 name: try-gmt
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - python=3.9
   - gmt=6.1.1
   - pygmt=0.3.0
-  - jupyterlab
+  - jupyterlab=3.0.7
+  - jupyter-offlinenotebook=0.2.1
