@@ -29,4 +29,4 @@ jobs:
 
       - name: Run repo2docker
         shell: bash -l {0}
-        run: jupyter-repo2docker --no-run --ref ${{ github.event.pull_request.head.sha }} https://github.com/${{ github.repository }}
+        run: jupyter-repo2docker --no-run --ref ${{ github.event.pull_request.head.sha }} https://github.com/${{ github.event.pull_request.head.repo.full_name }}
