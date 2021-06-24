@@ -22,7 +22,7 @@ You can run it online by click one of the badges below:
 - **Python**: 3.9
 - **PyGMT**: 0.4.0
 - **Julia**: 1.6
-- **GMT.jl**: 0.32.0
+- **GMT.jl**: 0.34.0
 
 ## Reference
 
