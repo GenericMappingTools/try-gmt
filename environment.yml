@@ -6,7 +6,7 @@ dependencies:
   - python=3.9
   - gmt=6.2.0
   - pygmt=0.4.0
-  - jupyterlab=3.0.16
+  - jupyterlab=3.1.1
   - jupyter-offlinenotebook=0.2.1
   # Optional dependencies
   - geopandas=0.9.0
