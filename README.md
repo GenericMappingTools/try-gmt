@@ -22,7 +22,7 @@ Run it online by clicking on one of the badges below:
 - **Julia**: 1.6
 - **GMT.jl**: 0.40.0
 - **Python**: 3.9
-- **PyGMT**: 0.5.0
+- **PyGMT**: 0.6.0
 - **Geopandas**: 0.10.2
 
 ## Reference
