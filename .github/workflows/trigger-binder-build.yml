@@ -12,8 +12,7 @@ jobs:
   trigger-binder-build:
     runs-on: [ubuntu-latest]
     steps:
-
       - name: Trigger build on mybinder.org
         uses: s-weigand/trigger-mybinder-build@v1
         with:
-          target-repo: GenericMappingTools/try-gmt
+          target-repo: GenericMappingTools/try-gmt/master
