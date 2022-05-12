@@ -17,5 +17,3 @@ jobs:
         uses: s-weigand/trigger-mybinder-build@v1
         with:
           target-repo: GenericMappingTools/try-gmt
-          additional-build-servers: |
-            https://binder.pangeo.io
