@@ -4,7 +4,7 @@ This is an online Jupyter lab environment with the latest
 [GMT](https://www.generic-mapping-tools.org/),
 [PyGMT](https://www.pygmt.org/),
 and [GMT.jl](https://www.generic-mapping-tools.org/GMT.jl/)
-versions installed.
+versions installed!
 
 Run it online by clicking on one of the badges below:
 
