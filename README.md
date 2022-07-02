@@ -22,7 +22,7 @@ Run it online by clicking on one of the badges below:
 - **GMT.jl**: 0.41.4
 - **Python**: 3.10
 - **PyGMT**: 0.7.0
-- **Geopandas**: 0.10.2
+- **Geopandas**: 0.11.0
 
 ## Reference
 

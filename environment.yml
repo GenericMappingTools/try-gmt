@@ -9,4 +9,4 @@ dependencies:
   - jupyterlab=3.4.0
   - jupyter-offlinenotebook=0.2.2
   # Optional dependencies
-  - geopandas=0.10.2
+  - geopandas=0.11.0
