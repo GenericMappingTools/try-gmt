@@ -3,10 +3,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.10
+  - python=3.11
   - gmt=6.4.0
   - pygmt=0.8.0
-  - jupyterlab=3.4.0
+  - jupyterlab=3.5.2
   - jupyter-offlinenotebook=0.2.2
   # Optional dependencies
   - geopandas=0.12.2
