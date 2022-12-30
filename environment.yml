@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.11
+  - python=3.10
   - gmt=6.4.0
   - pygmt=0.8.0
   - jupyterlab=3.5.2
