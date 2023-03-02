@@ -1,7 +1,7 @@
 name: try-gmt
 channels:
   - conda-forge
-  - defaults
+  - nodefaults
 dependencies:
   - python=3.10
   - gmt=6.4.0
