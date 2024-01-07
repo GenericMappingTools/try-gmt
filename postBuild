@@ -3,6 +3,7 @@
 
 for i in $(seq 1 3); do
 	for res in 01d 30m 20m 15m 10m 06m; do
-		gmt which -Ga @earth_relief_${res}
+		gmt which -Ga @earth_relief_${res}_p
 	done
 done
+gmt which -Ga @hotspots.txt
