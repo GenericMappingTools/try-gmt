@@ -19,7 +19,7 @@ Run it online by clicking on one of the badges below:
 - **GMT.jl**: 1.x
 - **Python**: 3.11
 - **PyGMT**: 0.12.0
-- **Geopandas**: 0.12.2
+- **Geopandas**: 0.14.4
 
 ## Reference
 
