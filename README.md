@@ -15,11 +15,11 @@ Run it online by clicking on one of the badges below:
 ## Installed packages
 
 - **GMT**: 6.5.0
-- **Julia**: 1.7
+- **Julia**: 1.10
 - **GMT.jl**: 1.x
 - **Python**: 3.11
-- **PyGMT**: 0.12.0
-- **Geopandas**: 0.14.4
+- **PyGMT**: 0.13.0
+- **Geopandas**: 1.0.1
 
 ## Reference
 

@@ -5,8 +5,8 @@ channels:
 dependencies:
   - python=3.11
   - gmt=6.5.0
-  - pygmt=0.12.0
-  - jupyterlab=4.1.8
-  - jupyter-offlinenotebook=0.2.2
+  - pygmt=0.13.0
+  - jupyterlab=4.2.5
+  - jupyter-offlinenotebook=0.3.1
   # Optional dependencies
-  - geopandas=0.14.4
+  - geopandas=1.0.1
