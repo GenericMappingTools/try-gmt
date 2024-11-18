@@ -10,6 +10,8 @@ Run it online by clicking on one of the badges below:
 
 - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GenericMappingTools/try-gmt/main?urlpath=lab/tree/landing-page.ipynb) hosted at https://mybinder.org/
 - [![Binder](https://mybinder.org/badge_logo.svg)](https://ovh.mybinder.org/v2/gh/GenericMappingTools/try-gmt/main?urlpath=lab/tree/landing-page.ipynb) hosted at https://ovh.mybinder.org/
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/GenericMappingTools/try-gmt/main?urlpath=lab/tree/landing-page.ipynb) hosted at https://notebooks.gesis.org/binder/
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://binder.curvenote.dev/v2/gh/GenericMappingTools/try-gmt/main?urlpath=lab/tree/landing-page.ipynb) hosted at https://binder.curvenote.dev/
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GenericMappingTools/try-gmt/blob/main/landing-page.ipynb) hosted by [Google Colab](https://colab.research.google.com/) (Need to log in to your Google account).
 
 ## Installed packages
