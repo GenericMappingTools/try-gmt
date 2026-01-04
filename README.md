@@ -8,10 +8,10 @@ versions installed.
 
 Run it online by clicking on one of the badges below:
 
-- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GenericMappingTools/try-gmt/main?urlpath=lab/tree/landing-page.ipynb) hosted at https://mybinder.org/
-- [![Binder](https://mybinder.org/badge_logo.svg)](https://ovh.mybinder.org/v2/gh/GenericMappingTools/try-gmt/main?urlpath=lab/tree/landing-page.ipynb) hosted at https://ovh.mybinder.org/
-- [![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/GenericMappingTools/try-gmt/main?urlpath=lab/tree/landing-page.ipynb) hosted at https://notebooks.gesis.org/binder/
-- [![Binder](https://mybinder.org/badge_logo.svg)](https://binder.curvenote.dev/v2/gh/GenericMappingTools/try-gmt/main?urlpath=lab/tree/landing-page.ipynb) hosted at https://binder.curvenote.dev/
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GenericMappingTools/try-gmt/main?urlpath=%2Fdoc%2Ftree%2Flanding-page.ipynb) hosted at https://mybinder.org/
+- [![Binder](https://2i2c.mybinder.org/badge_logo.svg)](https://2i2c.mybinder.org/v2/gh/GenericMappingTools/try-gmt/main?urlpath=%2Fdoc%2Ftree%2Flanding-page.ipynb) hosted at https://2i2c.mybinder.org/
+- [![Binder](https://bids.mybinder.org/badge_logo.svg)](https://bids.mybinder.org/v2/gh/GenericMappingTools/try-gmt/main?urlpath=%2Fdoc%2Ftree%2Flanding-page.ipynb) hosted at https://bids.mybinder.org/
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GenericMappingTools/try-gmt/main?urlpath=%2Fdoc%2Ftree%2Flanding-page.ipynb) hosted at https://notebooks.gesis.org/binder/
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GenericMappingTools/try-gmt/blob/main/landing-page.ipynb) hosted by [Google Colab](https://colab.research.google.com/) (Need to log in to your Google account).
 
 ## Installed packages
