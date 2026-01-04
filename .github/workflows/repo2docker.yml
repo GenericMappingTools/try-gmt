@@ -3,7 +3,7 @@ name: Validator
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   repo2docker:
@@ -12,12 +12,14 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
 
       - name: Setup Miniconda
-        uses: conda-incubator/setup-miniconda@v2
+        uses: conda-incubator/setup-miniconda@835234971496cad1653abb28a638a281cf32541f # v3.2.0
         with:
-          channels: conda-forge
+          conda-remove-defaults: "true"
+          conda-solver: libmamba
+          miniforge-version: latest
 
       - name: Install dependencies
         shell: bash -l {0}
