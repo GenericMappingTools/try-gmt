@@ -19,9 +19,9 @@ jobs:
         with:
           activate-environment: try-gmt
           conda-remove-defaults: "true"
-          conda-solver: libmamba
           environment-file: environment.yml
           miniforge-version: latest
+          use-mamba: true
 
       - name: Install dependencies
         shell: bash -l {0}
