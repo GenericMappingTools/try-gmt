@@ -10,3 +10,6 @@ dependencies:
   - jupyter-offlinenotebook=0.3.2
   # Optional dependencies
   - geopandas=1.1.2
+  # Temporary pin libsqlite to workaround `undefined symbol: sqlite3_total_changes64`
+  # https://github.com/GenericMappingTools/try-gmt/pull/63
+  - libsqlite=3.50.4
