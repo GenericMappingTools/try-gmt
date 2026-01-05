@@ -16,19 +16,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
-
-      - name: Setup Miniconda
-        uses: conda-incubator/setup-miniconda@835234971496cad1653abb28a638a281cf32541f # v3.2.0
         with:
-          conda-remove-defaults: "true"
-          miniforge-version: latest
-          use-mamba: true
+          persist-credentials: false
 
-      - name: Install repo2docker
-        run: mamba install jupyter-repo2docker
-
-      - name: Show installed packages
-        run: mamba list
+      - name: Set up Python and install repo2docker
+        uses: actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548 # v6.1.0
+        with:
+          python-version: "3.13"
+          pip-install: jupyter-repo2docker
 
       - name: Run repo2docker
         run: jupyter-repo2docker --no-run --ref ${{ github.event.pull_request.head.sha }} https://github.com/${{ github.event.pull_request.head.repo.full_name }}
