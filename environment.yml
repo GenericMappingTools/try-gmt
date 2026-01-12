@@ -3,9 +3,9 @@ channels:
   - conda-forge
   - nodefaults
 dependencies:
-  - python=3.13
+  - python=3.14
   - gmt=6.6.0
-  - pygmt=0.17.0
+  - pygmt=0.18.0
   - jupyterlab=4.4.9
   - jupyter-offlinenotebook=0.3.2
   # Optional dependencies
