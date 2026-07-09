@@ -20,8 +20,8 @@ Run it online by clicking on one of the badges below:
 - **Julia**: 1.10
 - **GMT.jl**: 1.x
 - **Python**: 3.14
-- **PyGMT**: 0.18.0
-- **Geopandas**: 1.1.2
+- **PyGMT**: 0.19.0
+- **Geopandas**: 1.1.4
 
 ## Reference
 
